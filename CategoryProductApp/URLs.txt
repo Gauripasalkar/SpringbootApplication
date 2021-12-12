@@ -1,0 +1,32 @@
+Product Service
+
+Get->
+1.http://localhost:8080/myApp/fetchproducts
+2.http://localhost:8080/myApp/fetchproduct/{id}
+3.http://localhost:8080/myApp/fetchproduct/productName
+
+Post->
+4.http://localhost:8080/myApp/addproduct
+
+Put->
+5.http://localhost:8080/myApp/editproduct/{id}
+
+Delete->
+6.http://localhost:8080/myApp/deleteproduct/{id}
+
+
+Category Service
+
+Get->
+1.http://localhost:8080/myApp/fetchcategories
+2.http://localhost:8080/myApp/fetchcategory/{id}
+3.http://localhost:8080/myApp/fetchcategory/categoryName
+
+Post->
+4.http://localhost:8080/myApp/addcategory
+
+Put->
+5.http://localhost:8080/myApp/editcategory/{id}
+
+Delete->
+6.http://localhost:8080/myApp/deletecategory/{id}
