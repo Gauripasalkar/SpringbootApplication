@@ -6,6 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import javax.persistence.ManyToOne;
 
 @Entity
 @Table(name="productlist")
@@ -73,4 +74,6 @@ public class ProductDetails {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+	@ManyToOne
+	private Category category;
 }
